@@ -20,12 +20,12 @@ get '/harry-potter' do
 end
 
 get '/random-cat' do
-  @cat_names = ["Amigo", "Oscar", "Viking"].sample
+  @cat_name = ["Amigo", "Oscar", "Viking"].sample
   erb(:index)
 end
 
 get '/named-cat' do
   p params
-  @cat_names = params[:name]
+  @cat_name = params[:name]
   erb(:index)
 end
