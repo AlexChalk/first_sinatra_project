@@ -19,5 +19,5 @@ get '/harry_potter' do
 end
 
 get '/cat' do
-  "<img src='http://bit.ly/1eze8aE' style='border:medium dotted red'>"
+  erb(:index)
 end
