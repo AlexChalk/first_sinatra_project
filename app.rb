@@ -2,6 +2,7 @@ require 'sinatra'
 
 set :session_secret, 'super secret'
 
+
 get '/' do
   "Hello World"
 end
@@ -19,5 +20,6 @@ get '/harry_potter' do
 end
 
 get '/cat' do
+  @cat_names = ["Amigo", "Oscar", "Viking"].sample
   erb(:index)
 end
