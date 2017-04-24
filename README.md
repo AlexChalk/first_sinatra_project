@@ -1,6 +1,6 @@
 # First Sinatra Project
 
-A short project that helped me get to grips with Sinatra and HTTP. I created a locally hosted server with paths to some (very) basic html files and a picture of a cat. The project also includes a form that lets you name the cat.
+A short project that helped me get to grips with Sinatra and HTTP. I created a site with paths to some (very) basic html files and a picture of a cat. The project also includes a form that lets you name the cat.
 
 ## Installation
 
